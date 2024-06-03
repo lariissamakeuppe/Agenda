@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+body{
+    background-size: contain;
+    background-image: linear-gradient(rgba(218, 13, 64, 0.5), rgba(187, 16, 209, 0.5)),
+                  url(/imagens/background.jpg);
+    height: 100%;
+}
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+header img{
+    max-width: 170px;
+    max-height: 170px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+header h2{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.degrade{
+    background: linear-gradient(#fe4701, #ff0054);
+}
+.botoes-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+}
+.link-home{
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+a.link span, .link-home span{
+    font-size: 1.2em;
+    margin-left: 50px;
+}
+
+a.link i, .link-home i{
+    font-size: 2.5em;
+    margin-right: 20px;
+}
+
+footer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.container{
+    overflow: hidden;
+}
+section.depoimentos-container .slide{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+    max-width: 900px;
+    background: linear-gradient(to left, #6d045665, #58024665);
+    border-radius: 30px;
+    cursor: grab;
+}
+section.depoimentos-container .slide:active{
+    cursor: grabbing;
+}
+section.depoimentos-container i{
+    font-size: 3em;
+    color: white;
+    gap: 20px;
+}
+section.depoimentos-container .depoimento-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 500px;
+    font-size: 2em;
+  
+}
+section.depoimentos-container .pessoa-depoimento {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    margin-top: 10px;
+}
+section.depoimentos-container .pessoa-depoimento p{
+    font-weight: 300;
+    font-size: 0.8em;
+}
+section.depoimentos-container .pessoa-depoimento img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto 20px;
+}
+div.post-depoimento{
+    display: inline;
+    margin-left: 60px;
+}
+section.depoimentos-container .pessoa-depoimento div i{
+    font-size: 1.2em;
+}
