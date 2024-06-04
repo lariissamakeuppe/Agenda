@@ -98,13 +98,8 @@ footer{
     margin: 30px;
 }
 
-.container{
-    overflow: hidden;
-}
 section.depoimentos-container .slide{
     display: block;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
     margin: 20px;
     max-width: 900px;
@@ -122,7 +117,7 @@ section.depoimentos-container i{
 }
 section.depoimentos-container .depoimento-txt{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     height: 100px;
     width: 500px;
